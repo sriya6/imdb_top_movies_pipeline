@@ -6,7 +6,7 @@
 - The movies data is captured on a periodic basis and cleaned, transformed into a suitable format for analysis using Athena. 
 
 
-## Project features**
+## Project features
 **Data Extraction**
 - Fetches the top 100 movies daily from IMDB API
 - Stores the raw data in S3 bucket in JSON format
