@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-- A Data Engineering Project that automates the ETL process for top 100 movies data from IMDB API using AWS services.
+- A Data Engineering Project that automates the ETL process for top 100 movies data from [IMDB API](https://rapidapi.com/rapihub-rapihub-default/api/imdb-top-100-movies/playground/apiendpoint_e356f09e-d37e-4eab-b36b-28ed1e4f95e2) using AWS services.
 - The movies data is captured on a periodic basis and cleaned, transformed into a suitable format for analysis using Athena. 
 
 
