@@ -58,7 +58,8 @@ def lambda_handler(event, context):
             Key=transformed_file_key,
             Body=csv_buffer.getvalue()
         )
-        
+
+    # Copy to processed data and delete processed data from source to avoid re-processing same files
     s3_resource = boto3.resource('s3')
     for key in file_keys:
         copy_source = {
